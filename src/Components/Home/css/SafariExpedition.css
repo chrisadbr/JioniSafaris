@@ -1,0 +1,196 @@
+.safari__expedition {
+  display: flex;
+  flex-direction: column;
+  min-height: 130vh;
+  width: 100%;
+  background-image: url('../../Asset/safari_expedition_bcg.svg'), linear-gradient(to bottom, var(--white), var(--white), var(--min_jioni), var(--min_jioni));
+  background-size: 100%;
+}
+.safariExpedition__header {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+  padding: 150px 0px 0px 60px;
+}
+.safariExpedition__liner {
+  height: 10px;
+  width: 200px;
+  background: var(--primary_black);
+}
+.safariExpedition__header > h1 {
+  font-size: 3.8rem;
+  font-weight: 800;
+  margin-left: 10px;
+  color: var(--primary_black);
+}
+.safariExpedition__txtImg {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+  padding-bottom: 50px;
+}
+.safariExpedition__txtImg .safariExpedition__Img__container {
+  display: flex;
+  width: 45%;
+  height: 70vh;
+}
+.safariExpedition__txtImg .safariExpedition__Img__container > img {
+  width: 100%;
+  height: 100%;
+}
+.safariExpedition__text {
+  display: flex;
+  width: 42%;
+  height: 70vh;
+}
+.safariExpedition__text > p {
+  text-align: justify;
+  font-size: 1.3rem;
+  color: var(--primary_black);
+  padding: 0px 30px 0px 30px;
+}
+.safariExpedition__text > p::first-letter {
+  font-size: 250%;
+}
+/* Media queries */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .safari__expedition {
+    background: none;
+    background-color: var(--jioni);
+    padding: 5px;
+    min-height: 100vh;
+  }
+  .safariExpedition__header {
+    padding-left: 5px;
+    padding-top: 40px;
+    height: 5vh;
+  }
+  .safariExpedition__liner {
+    width: 40px;
+    height: 3px;
+  }
+  .safariExpedition__header > h1 {
+    font-size: 23px;
+  }
+  .safariExpedition__txtImg {
+    padding-top: 30px;
+    flex-direction: column;
+    width: 100%;
+  }
+  .safariExpedition__txtImg .safariExpedition__Img__container {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+  }
+  .safariExpedition__Img__container > img {
+    height: 40vh;
+    min-width: 90vw;
+  }
+  .safariExpedition__text {
+    display: flex;
+    align-items: center;
+    min-height: 50vh;
+    width: 100%;
+  }
+  .safariExpedition__text > p {
+    padding: 0px 5px;
+    font-size: 16px;
+  }
+}
+/* 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .safari__expedition {
+    background: none;
+    background-color: var(--jioni);
+    padding: 5px;
+    min-height: 110vh;
+  }
+  .safariExpedition__header {
+    padding-left: 5px;
+    padding-top: 40px;
+    height: 4vh;
+  }
+  .safariExpedition__liner {
+    width: 40px;
+    height: 3px;
+  }
+  .safariExpedition__header > h1 {
+    font-size: 23px;
+  }
+  .safariExpedition__txtImg {
+    padding-top: 30px;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+    width: 100%;
+  }
+  .safariExpedition__txtImg .safariExpedition__Img__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 48vh;
+  }
+  .safariExpedition__Img__container > img {
+    height: 43vh;
+    width: 100%;
+  }
+  .safariExpedition__text {
+    min-height: 40vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    font-size: 16px;
+  }
+  .safariExpedition__text > p {
+    padding: 0px 5px;
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 600px) {
+  .safari__expedition {
+    background: none;
+    background-color: var(--jioni);
+    padding: 5px;
+    min-height: 100vh;
+  }
+  .safariExpedition__header {
+    padding-left: 5px;
+    padding-top: 30px;
+    height: 4vh;
+  }
+  .safariExpedition__liner {
+    width: 60px;
+    height: 5px;
+  }
+  .safariExpedition__header > h1 {
+    font-size: 30px;
+  }
+  .safariExpedition__txtImg {
+    padding-top: 30px;
+    flex-direction: column;
+    min-height: 90vh;
+  }
+  .safariExpedition__txtImg .safariExpedition__Img__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+  }
+  .safariExpedition__Img__container > img {
+    height: 40vh;
+    width: 100%;  
+  }
+  .safariExpedition__text {
+    display: flex;
+    align-items: center;
+    min-height: 40vh;
+    width: 100%;
+  }
+  .safariExpedition__text > p {
+    padding: 0px 5px;
+    font-size: 1.2rem;
+  }
+}

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="360mm"
+   height="110mm"
+   viewBox="0 0 360 110"
+   version="1.1"
+   id="svg907"
+   sodipodi:docname="aboutUs__reviews__bcg.svg"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview909"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.4641344"
+     inkscape:cx="395.35962"
+     inkscape:cy="282.24583"
+     inkscape:window-width="1366"
+     inkscape:window-height="699"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs904">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient6334">
+      <stop
+         style="stop-color:#ff630c;stop-opacity:1;"
+         offset="0"
+         id="stop6330" />
+      <stop
+         style="stop-color:#fffff7;stop-opacity:0"
+         offset="1"
+         id="stop8806" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient6334"
+       id="linearGradient6336"
+       x1="185.45735"
+       y1="-56.12035"
+       x2="185.43864"
+       y2="124.89246"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1.0010019,0,0,0.795183,-0.36332296,-1.3045105)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:url(#linearGradient6336);fill-opacity:1;stroke:none;stroke-width:0.363178px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M -0.40173433,-0.79197857 -1.1107155,110.9093 361.36562,109.44495 362.62092,-0.64643284 Z"
+       id="path1402" />
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+.excursion__banner {
+  display: flex;
+  min-height: 110vh;
+  width: 100%;
+  background: url(../../Asset/excursion_bcg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  align-items: center;
+}
+.excursion__safari__banner {
+  display: flex;
+  flex-direction: column;
+  height: 40vh;
+  width: 100%;
+  justify-content: center;
+  display: none;
+}
+.excursion__banner__header {
+  display: flex;
+  height: 20vh;
+  padding: 0px 0px 0px 20px;
+}
+.excursion__banner__header > h1 {
+  color: var(--primary_black);
+  font-size: 3.7rem;
+  font-weight: 800;
+}
+.excursion__banner__link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 20px;
+  margin-top: 20px;
+  width: 140px;
+  padding: 10px;
+  background-color: var(--primary_black);
+  border-radius: 999px;
+}
+.excursion__banner__link .excursion__link {
+  display: flex;
+  color: var(--jioni);
+  font-size: 1.3rem;
+  font-weight: 500;
+  text-decoration: none;
+}
+@media screen and (max-width: 768px) {
+  .excursion__banner {
+    display: none;
+  }
+}

@@ -1,0 +1,29 @@
+.scroll__top__button {
+  display: flex;
+  width: 5vw;
+  height: 0;
+  align-items: center;
+  z-index: 10;
+  position: absolute;
+}
+.scroll__top__btn:hover {
+  cursor: pointer;
+}
+.scroll__top__btn {
+  color: var(--white);
+  border-radius: 50%;
+  font-size: 3rem;
+  background-color: var(--dark_khaki);
+  position: fixed;
+  top: 150px;
+  left: 96%;
+}
+/* Media query */
+@media screen and (max-width: 768px) {
+  .scroll__top__btn {
+    font-size: 2rem;
+    top: 50px;
+    left: 75%;
+    z-index: 1;
+  }
+}

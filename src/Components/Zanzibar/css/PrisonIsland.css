@@ -1,0 +1,236 @@
+.prisonisland {
+  display: flex;
+  flex-direction: column;
+  min-height: 130vh;
+  width: 100%;
+  /* background: url(../../Images/spiceisland_bcg.svg); */
+  background-image: url('../../Asset/spiceisland_bcg.svg'),
+  linear-gradient(to bottom, var(--white), var(--white), var(--primary_black),
+  var(--primary_black));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+}
+.prisonisland__header {
+  min-height: 10vh;
+  display: flex;
+  align-items: center;
+  padding-left: 100px;
+  padding-top: 200px;
+}
+.prisonisland__header .prisonisland__liner {
+  height: 10px;
+  width: 200px;
+  background-color: var(--jioni);
+}
+.prisonisland__header > h1 {
+  color: var(--white);
+  font-size: 3.8rem;
+  font-weight: 800;
+  padding-left: 10px;
+}
+.prisonisland__textImg {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  justify-content: space-evenly;
+  width: 100%;
+}
+.prisonisland__Img__container {
+  display: flex;
+  height: 60vh;
+  width: 50%;
+  position: relative;
+}
+.prisonisland__text {
+  display: flex;
+  width: 45vw;
+  margin-left: 70px;
+}
+.prisonisland__text > p {
+  color: var(--white);
+  font-size: 1.3rem;
+  padding: 0px 30px 30px 30px;
+  text-align: justify;
+}
+.prisonisland__text > p::first-letter {
+  font-size: 250%;
+  color: var(--jioni);
+}
+.prisonisland__Img {
+  z-index: 1;
+}
+/* Media queries 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .prisonisland {
+    padding: 0px;
+    background-size: 100%;
+    min-height: 120vh;
+  }
+  .prisonisland__header {
+    height: 4vh;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-top: 80px;
+    margin-bottom: 0px;
+  }
+  .prisonisland__header .prisonisland__liner {
+    height: 3px;
+    width: 40px;
+    margin-right: 0px;
+  }
+  .prisonisland__header > h1 {
+    font-size: 23px;
+    padding-left: 10px;
+  }
+  .prisonisland__textImg {
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    width: 100%;
+    margin-top: 20px;
+    padding-top: 0px;
+    background-color: var(--primary_black);
+    min-height: 110vh;
+  }
+  .prisonisland__Img__container {
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    height: 45vh;
+    width: 100%;
+    align-items: center;
+  }
+  .prisonisland__Img {
+    width: 100%;
+    height: 40vh;
+  }
+  .prisonisland__text {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 5px 10px 5px;
+  }
+  .prisonisland__text > p {
+    color: var(--white);
+    font-size: 16px;
+    padding: 0px;
+    text-align: justify;
+  }
+}
+/* Media query 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .prisonisland {
+    padding: 0px;
+    background-size: 100%;
+    min-height: 120vh;
+  }
+  .prisonisland__header {
+    height: 5vh;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-top: 80px;
+    margin-bottom: 0px;
+  }
+  .prisonisland__header .prisonisland__liner {
+    height: 4px;
+    width: 60px;
+    margin-right: 0px;
+  }
+  .prisonisland__header > h1 {
+    font-size: 26px;
+    padding-left: 10px;
+  }
+  .prisonisland__textImg {
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    width: 100%;
+    margin-top: 10px;
+    padding-top: 0px;
+    background-color: var(--primary_black);
+    min-height: 110vh;
+  }
+  .prisonisland__Img__container {
+    display: flex;
+    margin: 0px;
+    padding: 5px;
+    height: 50vh;
+    width: 100%;
+    align-items: center;
+  }
+  .prisonisland__Img {
+    width: 100%;
+    height: 45vh;
+  }
+  .prisonisland__text {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    padding: 0px 5px 20px 5px;
+  }
+  .prisonisland__text > p {
+    color: var(--white);
+    font-size: 1.1rem;
+    padding: 0px;
+    text-align: justify;
+  }
+}
+/* Media queries 400px - 768px*/
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .prisonisland {
+    background-size: 100%;
+    min-height: 120vh;
+  }
+  .prisonisland__header {
+    height: 5vh;
+    margin-left: 0px;
+    padding-left: 5px;
+    padding-top: 90px;
+    margin-bottom: 0px;
+    margin-top: 0px;
+    display: flex;
+    align-items: center;
+  }
+  .prisonisland__header .prisonisland__liner {
+    height: 5px;
+    width: 70px;
+    margin-right: 0px;
+  }
+  .prisonisland__header > h1 {
+    font-size: 30px;
+    padding-left: 5px;
+  }
+  .prisonisland__textImg {
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    width: 100%;
+    padding-top: 0px;
+    min-height: 110vh;
+    margin-top: 20px;
+    padding: 5px;
+    background-color: var(--primary_black);
+  }
+  .prisonisland__Img__container {
+    display: flex;
+    align-items: center;
+    margin: 0px;
+    height: 50vh;
+    width: 100%;
+  }
+  .prisonisland__Img {
+    width: 100%;
+    height: 45vh;
+  }
+  .prisonisland__text {
+    display: flex;
+    width: 100%;
+    margin-left: 0px;
+    min-height: 60vh;
+    padding-bottom: 10px;
+  }
+  .prisonisland__text > p {
+    color: var(--white);
+    font-size: 1.1rem;
+    padding: 0px;
+    text-align: justify;
+  }
+}

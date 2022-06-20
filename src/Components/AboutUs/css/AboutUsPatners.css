@@ -1,0 +1,150 @@
+.aboutUs__patners {
+  display: flex;
+  width: 100%;
+  min-height: 50vh;
+  background: #ece9e6; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #ffffff,
+    #ece9e6
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  align-items: center;
+}
+.aboutUs__logoContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  min-height: 40vh;
+  width: 100%;
+}
+.logo__tanapa > img {
+  width: 120px;
+  height: 120px;
+}
+
+.logo__ngorongoro > img {
+  width: 110px;
+  height: 120px;
+}
+.logo__serengeti {
+  object-fit: contain;
+}
+.logo__tarangire > img {
+  width: 170px;
+  height: 60px;
+}
+.logo__trip__advisor > img {
+  width: 120px;
+  height: 120px;
+}
+/* Media query 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .aboutUs__logoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+    grid-gap: 10px;
+    padding: 10px 5px 0px 40px;
+    width: 90%;
+  }
+  .logo__tanapa > img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .logo__ngorongoro > img {
+    width: 70px;
+    height: 80px;
+  }
+  .logo__serengeti {
+    object-fit: contain;
+  }
+  .logo__tarangire {
+   display: flex;
+   width: 120px;
+   height: 50px;
+   align-items: center;
+   padding-right: 10px;
+  }
+  .logo__tarangire > img {
+    width: 120px;
+    height: 40px;
+  }
+  .logo__trip__advisor > img {
+    width: 80px;
+    height: 80px;
+  }
+}
+/* Media queries 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px){
+  .aboutUs__logoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+    grid-gap: 10px;
+    padding: 10px 5px 0px 40px;
+    width: 90%;
+  }
+  .logo__tanapa > img {
+    width: 80px;
+    height: 80px;
+  }
+
+  .logo__ngorongoro > img {
+    width: 70px;
+    height: 80px;
+  }
+  .logo__serengeti {
+    object-fit: contain;
+  }
+  .logo__tarangire {
+   display: flex;
+   width: 120px;
+   height: 50px;
+   align-items: center;
+   padding-right: 10px;
+  }
+  .logo__tarangire > img {
+    width: 120px;
+    height: 40px;
+  }
+  .logo__trip__advisor > img {
+    width: 80px;
+    height: 80px;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .aboutUs__logoContainer {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-auto-rows: 180px;
+    grid-gap: 10px;
+    padding: 10px 0px 0px 60px;
+    width: 90%;
+  }
+  .logo__tanapa > img {
+    width: 100px;
+    height: 100px;
+  }
+
+  .logo__ngorongoro > img {
+    width: 90px;
+    height: 100px;
+  }
+  .logo__serengeti {
+    object-fit: contain;
+  }
+  .logo__tarangire > img {
+    width: 160px;
+    height: 40px;
+  }
+  .logo__trip__advisor > img {
+    width: 100px;
+    height: 100px;
+  }
+}

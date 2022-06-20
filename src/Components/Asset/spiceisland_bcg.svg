@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="359mm"
+   height="221mm"
+   viewBox="0 0 359 221"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="spiceisland_bcg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     inkscape:zoom="0.24258858"
+     inkscape:cx="377.18181"
+     inkscape:cy="350.38748"
+     inkscape:window-width="1366"
+     inkscape:window-height="699"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1"
+     height="209mm" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g915"
+       transform="matrix(1.247871,0,0,1.0571416,-9.4991667,-0.00766534)">
+      <path
+         style="fill:#313233;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M -0.10808617,43.577012 162.83438,0.13414654 297.18127,68.687605 297.25977,211.08772 -0.60860013,210.33663 Z"
+         id="path2370" />
+      <path
+         style="fill:#ff7f2a;fill-opacity:1;stroke:none;stroke-width:0.404338px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 220.14627,29.526289 6.24832,-6.093467 70.78668,45.254783 z"
+         id="path2708" />
+    </g>
+  </g>
+</svg>

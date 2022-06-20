@@ -1,0 +1,228 @@
+.kilimanjaro {
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  width: 100%;
+  background-image: url('../../Asset/kilimanjaro_bcg.svg'),
+  linear-gradient(to bottom, var(--min_jioni), var(--min_jioni));
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.kilimanjaro__header__container {
+  display: flex;
+  margin-top: 70px;
+  padding-left: 70px;
+  height: 10vh;
+  width: 100%;
+  align-items: center;
+}
+.kilimanjaro__header__container .kilimanjaro__liner {
+  background-color: var(--jioni);
+  width: 200px;
+  height: 10px;
+  padding-left: 60px;
+}
+.kilimanjaro__header__container .kilimanjaro__h1 {
+  color: var(--white);
+  margin-left: 10px;
+  font-size: 3.8rem;
+  font-weight: 700;
+}
+.kilimanjaro__img__text__container {
+  display: flex;
+  width: 100%;
+  min-height: 100vh;
+  margin-top: 50px;
+  /* padding-top: 50px; */
+  justify-content: space-evenly;
+}
+.kilimanjaro__text__container {
+  display: flex;
+  width: 40%;
+  padding-left: 30px;
+}
+.kilimanjaro__img__container {
+  display: flex;
+  width: 45%;
+  height: 72vh;
+  margin-left: 70px;
+}
+.kilimanjaro__img {
+  height: 100%;
+  width: 100%;
+}
+.kilimanjaro__text__container > p {
+  color: white;
+  font-size: 1.3rem;
+  padding: 0px 20px 0px 0px;
+  text-align: justify;
+}
+.kilimanjaro__text__container > p::first-letter {
+  font-size: 250%;
+  color: var(--jioni);
+}
+/* Media queries 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .kilimanjaro {
+    padding: 5px;
+    background: none;
+    background-color: var(--primary_black);
+    min-height: 110vh;
+    margin-top: -2px;
+  }
+  .kilimanjaro__header__container {
+    height: 4vh;
+    padding-top: 0px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    width: 100%;
+  }
+  .kilimanjaro__header__container .kilimanjaro__liner {
+    width: 40px;
+    height: 3px;
+  }
+  .kilimanjaro__header__container .kilimanjaro__h1 {
+    margin-left: 0px;
+    font-size: 23px;
+    padding-left: 10px;
+  }
+  .kilimanjaro__img__text__container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 0px;
+    padding-top: 20px;
+  }
+  .kilimanjaro__text__container {
+    width: 100%;
+    padding-left: 0px;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .kilimanjaro__text__container > p {
+    font-size: 16px;
+    padding: 0px;
+  }
+  .kilimanjaro__img__container {
+    display: flex;
+    width: 100%;
+    height: 45vh;
+    margin-left: 0px;
+  }
+  .kilimanjaro__img {
+    height: 40vh;
+    width: 100%;
+  }
+}
+/* Media queries 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .kilimanjaro {
+    padding: 5px;
+    background: none;
+    background-color: var(--primary_black);
+    min-height: 120vh;
+    margin-top: -1px;
+  }
+  .kilimanjaro__header__container {
+    height: 5vh;
+    padding-top: 0px;
+    padding-left: 5px;
+    width: 100%;
+  }
+  .kilimanjaro__header__container .kilimanjaro__liner {
+    width: 60px;
+    height: 4px;
+  }
+  .kilimanjaro__header__container .kilimanjaro__h1 {
+    margin-left: 0px;
+    font-size: 26px;
+    padding-left: 10px;
+  }
+  .kilimanjaro__img__text__container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 100vh;
+    margin-top: 0px;
+    padding-top: 30px;
+  }
+  .kilimanjaro__text__container {
+    width: 100%;
+    padding-left: 0px;
+    min-height: 70vh;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 30px;
+  }
+  .kilimanjaro__text__container > p {
+    font-size: 1.1rem;
+    padding: 0px;
+  }
+  .kilimanjaro__img__container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-left: 0px;
+  }
+  .kilimanjaro__img {
+    height: 45vh;
+    width: 100%;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .kilimanjaro {
+    background: none;
+    padding: 5px;
+    background-color: var(--primary_black);
+    margin-top: -2px;
+    min-height: 130vh;
+  }
+  .kilimanjaro__header__container {
+    height: 5vh;
+    padding-top: 0px;
+    padding-left: 5px;
+    width: 100%;
+  }
+  .kilimanjaro__header__container .kilimanjaro__liner {
+    width: 70px;
+    height: 5px;
+    padding-left: 5px;
+  }
+  .kilimanjaro__header__container .kilimanjaro__h1 {
+    margin-left: 0px;
+    padding-left: 10px;
+    font-size: 30px;
+  }
+  .kilimanjaro__img__text__container {
+    display: flex;
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 120vh;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .kilimanjaro__text__container {
+    width: 100%;
+    padding-left: 0px;
+    min-height: 80vh;
+    justify-content: center;
+  }
+  .kilimanjaro__text__container > p {
+    font-size: 1.1rem;
+    padding: 0px;
+  }
+  .kilimanjaro__img__container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+    margin-left: 0px;
+    align-items: center;
+  }
+  .kilimanjaro__img {
+    height: 45vh;
+    width: 100%;
+  }
+}

@@ -1,0 +1,87 @@
+.contact__map {
+  display: flex;
+  min-height: 90vh;
+  width: 100%;
+  align-items: center;
+  flex-direction: column;
+}
+.map-container {
+  min-height: 87vh;
+  width: 100%;
+}
+.contact__sc__container {
+  display: flex;
+  width: 30%;
+  height: 7vh;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  z-index: 10;
+  background-color: var(--white);
+  border-bottom-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.contact__sc__container > div {
+  border-radius: 50%;
+  height: 34px;
+  width: 34px;
+  font-size: 1.2rem;
+  margin: 10px;
+  color: var(--jioni);
+  border: 2px solid var(--jioni);
+  display: flex;
+  justify-content: center;
+}
+.contact__sc__container > div > a {
+  color: var(--jioni);
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+}
+.contact__sc__container > div:hover {
+  cursor: pointer;
+}
+@media screen and (min-width: 300px) and (max-width: 360px) {
+  .contact__map {
+    min-height: 60vh;
+    padding: 5px;
+  }
+  .map-container {
+    min-height: 57vh;
+    width: 100%;
+  }
+  .contact__sc__container {
+    width: 70%;
+    height: 5vh;
+  }
+  .contact__sc__container > div {
+    border-radius: 50%;
+    height: 22px;
+    width: 22px;
+    font-size: 12px;
+    margin: 6px;
+    padding: 4px;
+  }
+}
+@media screen and (min-width: 361px) and (max-width: 768px) {
+  .contact__map {
+    min-height: 60vh;
+    padding: 5px;
+  }
+  .map-container {
+    min-height: 57vh;
+    width: 100%;
+  }
+  .contact__sc__container {
+    width: 65%;
+    height: 5vh;
+  }
+  .contact__sc__container > div {
+    border-radius: 50%;
+    height: 25px;
+    width: 25px;
+    font-size: 1rem;
+    margin: 6px;
+    padding: 4px;
+  }
+}

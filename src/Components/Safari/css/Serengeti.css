@@ -1,0 +1,200 @@
+.serengeti {
+  display: flex;
+  min-height: 125vh;
+  width: 100%;
+  background-color: var(--jioni);
+  background-image: url(../../Asset/serengeti_bcg.svg),
+  linear-gradient(to bottom, var(--min_jioni), var(--min_jioni));
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-direction: column;
+}
+.serengeti__header__container {
+  display: flex;
+  height: 10vh;
+  width: 100%;
+  padding-top: 50px;
+  padding-left: 70px;
+  align-items: center;
+}
+.serengeti__header__container .serengeti__liner {
+  background: var(--primary_black);
+  height: 10px;
+  width: 200px;
+}
+.serengeti__header__container > h1 {
+  color: var(--white);
+  font-size: 3.8rem;
+  font-weight: 800;
+  margin-left: 10px;
+}
+.serengeti__txtImg__container {
+  padding-top: 70px;
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+  min-height: 110vh;
+}
+.serengeti__text__container {
+  display: flex;
+  width: 42%;
+  min-height: 75vh;
+}
+.serengeti__text__container > p {
+  color: var(--primary_black);
+  font-size: 1.3rem;
+  text-align: justify;
+}
+.serengeti__text__container > p::first-letter {
+  font-size: 250%;
+  color: var(--white);
+}
+.serengeti__Img__container {
+  display: flex;
+  width: 43%;
+  min-height: 75vh;
+}
+.serengeti__Img {
+  width: 100%;
+  height: 77%;
+}
+/* Media queries 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .serengeti {
+    background-size: cover;
+    padding: 5px 5px 20px 5px;
+    min-height: 140vh;
+    background-position: 100%;
+    margin-bottom: -10px;
+  }
+  .serengeti__header__container {
+    height: 4vh;
+    padding-top: 40px;
+    padding-left: 5px;
+  }
+  .serengeti__header__container .serengeti__liner {
+    height: 3px;
+    width: 40px;
+  }
+  .serengeti__header__container > h1 {
+    font-size: 23px;
+  }
+  .serengeti__txtImg__container {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+    min-height: 110vh;
+  }
+  .serengeti__text__container {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    padding-bottom: 180px;
+  }
+  .serengeti__text__container > p {
+    font-size: 16px;
+    text-align: justify;
+  }
+  .serengeti__Img__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 45vh;
+  }
+  .serengeti__Img {
+    width: 100%;
+    height: 40vh;
+  }
+}
+/* Media queries 350px -  399px */
+/* Media queries 300px - 349px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .serengeti {
+    background-size: cover;
+    padding: 5px 5px 20px 5px;
+    min-height: 140vh;
+    background-position: 100%;
+    margin-bottom: -10px;
+  }
+  .serengeti__header__container {
+    height: 5vh;
+    padding-top: 30px;
+    padding-left: 5px;
+  }
+  .serengeti__header__container .serengeti__liner {
+    height: 4px;
+    width: 60px;
+  }
+  .serengeti__header__container > h1 {
+    font-size: 26px;
+  }
+  .serengeti__txtImg__container {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+    min-height: 110vh;
+  }
+  .serengeti__text__container {
+    width: 100%;
+    min-height: 70vh;
+    display: flex;
+    padding-bottom: 200px;
+  }
+  .serengeti__text__container > p {
+    font-size: 1.1rem;
+    text-align: justify;
+  }
+  .serengeti__Img__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+  }
+  .serengeti__Img {
+    width: 100%;
+    height: 45vh;
+  }
+}
+/* Media queries  400px - 768px*/
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .serengeti {
+    background-size: cover;
+    padding: 5px 5px 20px 5px;
+    min-height: 100vh;
+    background-position: 100%;
+    margin-bottom: -10px;
+  }
+  .serengeti__header__container {
+    height: 5vh;
+    padding-top: 40px;
+    padding-left: 5px;
+  }
+  .serengeti__header__container .serengeti__liner {
+    height: 5px;
+    width: 100px;
+  }
+  .serengeti__header__container > h1 {
+    font-size: 30px;
+  }
+  .serengeti__txtImg__container {
+    flex-direction: column-reverse;
+    padding-top: 30px;
+    min-height: 50vh;
+  }
+  .serengeti__text__container {
+    width: 100%;
+    min-height: 40vh;
+    padding-bottom: 200px;
+  }
+  .serengeti__text__container > p {
+    font-size: 1.1rem;
+  }
+  .serengeti__Img__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+  }
+  .serengeti__Img {
+    width: 100%;
+    height: 45vh;
+  }
+}

@@ -1,0 +1,149 @@
+.carausell {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-height: 110vh;
+  width: 100%;
+  background: rgb(49, 50, 51);
+  background: linear-gradient(
+    0deg,
+    rgba(49, 50, 51, 1) 2%,
+    rgba(194, 116, 9, 0.7259278711484594) 54%,
+    rgba(191, 145, 84, 1) 100%
+  );
+}
+.carausel__header {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  height: 10vh;
+  padding-left: 70px;
+}
+.carausel__header > h1 {
+  color: var(--white);
+  font-size: 3.8rem;
+  font-weight: 800;
+  padding-left: 10px;
+}
+.carausel__header .line {
+  width: 200px;
+  height: 10px;
+  background-color: var(--jioni);
+}
+.carausel__container {
+  display: flex;
+  min-height: 90vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.carausel__Img__container {
+  display: flex;
+  width: 65vw;
+  height: 70vh;
+}
+.carausel__desc {
+  display: flex;
+  height: 4vh;
+  min-width: 250px;
+  background-color: var(--dark_khaki);
+  color: var(--ghost_white);
+  font-weight: 800;
+  z-index: 10;
+  position: absolute;
+  margin-left: 0px;
+  justify-content: center;
+  padding: 0px 25px;
+  border-top-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  align-items: center;
+}
+
+.carausel__Img__container > img {
+  width: 80%;
+  height: 100%;
+  border-radius: 10px;
+}
+.carausel__Img__container .carausel__Img__8, 
+.carausel__Img__container .carausel__Img__6  {
+  width: 85%;
+  height: 100%;
+}
+.carausel__container .paging-item button .paging-dot {
+  display: none;
+}
+.carausel__right__arrow,
+.carausel__left__arrow {
+  color: var(--primary_black);
+  font-size: 3rem;
+}
+/* Media queries for 768px screen or less */
+@media screen and (max-width: 768px) {
+  .carausell {
+    min-height: 80vh;
+    width: 100%;
+    padding: 5px;
+  }
+  .carausel__header {
+    height: 5vh;
+    padding-top: 40px;
+    padding-left: 10px;
+  }
+  .carausel__header > h1 {
+    font-size: 30px;
+  }
+  .carausel__header .line {
+    width: 60px;
+    height: 5px;
+    margin-right: 0px;
+  }
+  .carausel__container {
+    min-height: 70vh;
+    width: 100%;
+  }
+  .carausel__Img__container {
+    display: flex;
+    width: 100%;
+    height: 50vh;
+  }
+  .carausel__Img__container > img {
+    width: 100%;
+    height: 100%;
+    border-radius: 0px;
+  }
+  .carausel__Img__container .carausel__Img__8,
+  .carausel__Img__container .carausel__Img__6 {
+    width: 100vw;
+    height: 100%;
+  }
+  .carausel__desc {
+    display: flex;
+    height: 3vh;
+    min-width: 250px;
+    background-color: var(--dark_khaki);
+    color: var(--ghost_white);
+    font-weight: 800;
+    font-size: 14px;
+    z-index: 10;
+    position: absolute;
+    margin-left: 0px;
+    justify-content: center;
+    padding: 0px 25px;
+    border-top-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    align-items: center;
+  }
+  
+  .carausel__container .paging-item button .paging-dot {
+    display: none;
+  }
+  .carausel__right__arrow,
+  .carausel__left__arrow {
+    display: none;
+  }
+  .carausel__desc {
+    border-top-left-radius: 0px;
+  }
+}

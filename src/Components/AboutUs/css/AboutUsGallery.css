@@ -1,0 +1,203 @@
+.aboutUs__gallery {
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+  width: 100%;
+  background: #232526; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #414345,
+    #232526
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.aboutUs__gallery__header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  padding: 100px 0px 40px 70px;
+}
+.aboutUs__gallery__liner {
+  width: 200px;
+  height: 10px;
+  background-color: var(--jioni);
+}
+.aboutUs__gallery__header > h1 {
+  color: var(--white);
+  font-size: 3.8rem;
+  padding-left: 10px;
+}
+.aboutUs__Img__container__slider {
+  display: flex;
+  width: 100%;
+  min-height: 105vh;
+  justify-content: center;
+  align-items: center;
+}
+.aboutUs__Img__container {
+  display: flex;
+  height: 75vh;
+  width: 100%;
+  justify-content: center;
+}
+.aboutUs__Img__container__slider .paging-item button {
+  display: none !important;
+  fill: var(--white) !important;
+}
+.aboutUs__Img__container > img {
+  height: 97%;
+  width: 100%;
+  border-radius: 5px;
+}
+.aboutUs__right__arrow,
+.aboutUs__left__arrow {
+  color: var(--white);
+  font-size: 3rem;
+}
+.aboutUs__right__arrow:hover,
+.aboutUs__left__arrow:hover {
+  cursor: pointer;
+}
+/* Media query 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .aboutUs__gallery {
+    padding: 5px;
+    min-height: 60vh;
+    width: 100%;
+  }
+  .aboutUs__gallery__header {
+    height: 5vh;
+    padding: 50px 0px 30px 10px;
+  }
+  .aboutUs__gallery__liner {
+    width: 30px;
+    height: 5px;
+  }
+  .aboutUs__gallery__header > h1 {
+    font-size: 23px;
+    padding-left: 5px;
+  }
+  .aboutUs__Img__container__slider {
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .aboutUs__Img__container {
+    display: flex;
+    height: 56vh;
+    width: 100%;
+    justify-content: center;
+  }
+  .aboutUs__Img__container__slider .paging-item button {
+    fill: var(--white) !important;
+  }
+  .aboutUs__Img__container > img {
+    height: 90%;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .aboutUs__right__arrow,
+  .aboutUs__left__arrow {
+    display: none !important;
+  }
+}
+/* Media query 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .aboutUs__gallery {
+    padding: 5px;
+    min-height: 60vh;
+    width: 100%;
+  }
+  .aboutUs__gallery__header {
+    height: 5vh;
+    padding: 50px 0px 30px 10px;
+  }
+  .aboutUs__gallery__liner {
+    width: 30px;
+    height: 5px;
+  }
+  .aboutUs__gallery__header > h1 {
+    font-size: 26px;
+    padding-left: 5px;
+  }
+  .aboutUs__Img__container__slider {
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .aboutUs__Img__container {
+    display: flex;
+    height: 56vh;
+    width: 100%;
+    justify-content: center;
+  }
+  .aboutUs__Img__container__slider .paging-item button {
+    fill: var(--white) !important;
+  }
+  .aboutUs__Img__container > img {
+    height: 90%;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .aboutUs__right__arrow,
+  .aboutUs__left__arrow {
+    display: none !important;
+  }
+}
+/* Media gallery */
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .aboutUs__gallery {
+    padding: 5px;
+    min-height: 60vh;
+    width: 100%;
+  }
+  .aboutUs__gallery__header {
+    height: 5vh;
+    padding: 50px 0px 30px 10px;
+  }
+  .aboutUs__gallery__liner {
+    width: 30px;
+    height: 5px;
+  }
+  .aboutUs__gallery__header > h1 {
+    font-size: 26px;
+    padding-left: 5px;
+  }
+  .aboutUs__Img__container__slider {
+    display: flex;
+    width: 100%;
+    min-height: 50vh;
+    justify-content: center;
+    align-items: center;
+    padding-top: 20px;
+  }
+  .aboutUs__Img__container {
+    display: flex;
+    height: 56vh;
+    width: 100%;
+    justify-content: center;
+  }
+  .aboutUs__Img__container__slider .paging-item button {
+    fill: var(--white) !important;
+  }
+  .aboutUs__Img__container > img {
+    height: 90%;
+    width: 100%;
+    border-radius: 0px;
+  }
+  .aboutUs__right__arrow,
+  .aboutUs__left__arrow {
+    display: none !important;
+  }
+}

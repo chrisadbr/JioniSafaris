@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="358mm"
+   height="213mm"
+   viewBox="0 0 358 213"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="serengeti_bcg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     height="209mm"
+     inkscape:zoom="0.30009657"
+     inkscape:cx="758.0893"
+     inkscape:cy="563.15205"
+     inkscape:window-width="1366"
+     inkscape:window-height="699"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="g2919" />
+  <defs
+     id="defs2" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <g
+       id="g2919"
+       transform="matrix(1.0176946,0,0,1.0161954,-6.4180687,-2.5971875)">
+      <path
+         style="fill:#eb8c34;fill-opacity:1;stroke:none;stroke-width:0.2805px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 1.2617907,-0.58119969 361.59435,1.0796556 362.71357,210.50281 -6.5477924,210.06004 Z"
+         id="path2244" />
+      <path
+         style="fill:#313233;fill-opacity:0.875366;stroke:none;stroke-width:0.284336px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="m 290.74044,206.03572 72.74213,-31.26913 0.52736,-8.26571 z"
+         id="path1536" />
+      <path
+         style="fill:#bf9154;stroke:none;stroke-width:0.260175px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;fill-opacity:1"
+         d="M -5.7788073,175.20936 253.42019,207.12581 363.48257,174.76659 362.71356,210.50281 -6.5477926,210.06004 Z"
+         id="path1530" />
+    </g>
+  </g>
+</svg>

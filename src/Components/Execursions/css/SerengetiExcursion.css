@@ -1,0 +1,392 @@
+.serengeti__excursion {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 100vh;
+}
+.serengeti__excursion__header {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  width: 100%;
+  padding: 50px 0px 0px 30px;
+  }
+.serengeti__excursion__header > h1 {
+  padding-left: 10px;
+  font-size: 3.8rem;
+  color: var(--primary_black);
+}
+.serengeti__exercusion__liner {
+  background-color: var(--min_jioni);
+  height: 10px;
+  width: 200px;
+}
+.serengeti__execursion__txtImg {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+}
+.serengeti__exercusion__Img {
+  display: flex;
+  align-items: center;
+  height: 77vh;
+  width: 60%;
+  background: url(../../Asset/four_seasons.webp);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+.serengeti__exercusion__innerDiv {
+  display: flex;
+  min-height: 50vh;
+  width: 4vw;
+  background-color: var(--min_jioni);
+  margin-left: auto;
+}
+.serengeti__exercusion__text__container {
+  display: flex;
+  width: 36%;
+  height: 100%;
+  align-items: center;
+}
+.serengeti__execursion__text {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: 50vh;
+  width: 100%;
+  background-color: var(--min_jioni);
+}
+.serengeti__text__header {
+  display: flex;
+  height: 7vh;
+  align-items: center;
+  width: 100%;
+  margin-top: 20px;
+}
+.serengeti__text__header > h2 {
+  color: var(--ghost_white);
+  font-size: 1.8rem;
+}
+.serengeti__exercusion__icon {
+  display: flex;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.serengeti__exercusion__icon .serengeti__fiHeart {
+  font-size: 2.5rem;
+  color: var(--ghost_white);
+}
+.serengeti__exercusion__icon .serengeti__fiHeart.selected {
+  fill: var(--ghost_white);
+  padding: 5px;
+  font-size: 2.8rem;
+  border-radius: 50%;
+  border: 3px solid var(--ghost_white);
+}
+.serengeti__exercusion__icon .serengeti__fiHeart:hover {
+  cursor: pointer;
+}
+.serengeti__exercusion__para {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  min-height: 40vh;
+}
+.serengeti__exercusion__para > p {
+  color: var(--primary_black);
+  font-size: 1.1rem;
+  text-align: justify;
+  padding: 0px 30px 40px 0px;
+}
+/* Media query 300px - 350px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .serengeti__excursion {
+    padding: 5px;
+    min-height: 110vh;
+  }
+  .serengeti__excursion__header {
+    display: flex;
+    height: 4vh;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0px 10px 5px;
+  }
+  .serengeti__excursion__header > h1 {
+    font-size: 23px;
+    color: var(--primary_black);
+    padding-left: 10px;
+  }
+  .serengeti__excursion__header .serengeti__exercusion__liner {
+    height: 3px;
+    width: 40px;
+  }
+  .serengeti__execursion__txtImg {
+    display: flex;
+    margin-top: 0px;
+    min-height: 100vh;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 20px;
+  }
+  .serengeti__exercusion__Img {
+    width: 100%;
+    height: 50vh;
+  }
+  .serengeti__exercusion__Img .serengeti__exercusion__innerDiv {
+    visibility: hidden;
+  }
+  .serengeti__exercusion__text__container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 50vh;
+  }
+  .serengeti__execursion__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 100%;
+    width: 100%;
+  }
+  .serengeti__text__header {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    margin-top: 10px;
+  }
+  .serengeti__text__header > h2 {
+    font-size: 18px;
+    padding-left: 20px;
+  }
+  .serengeti__exercusion__icon .serengeti__fiHeart {
+    font-size: 1.5rem;
+    color: var(--ghost_white);
+  }
+  .serengeti__exercusion__icon .serengeti__fiHeart.selected {
+    fill: var(--ghost_white);
+    padding: 5px;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 3px solid var(--ghost_white);
+  }
+  .serengeti__exercusion__para {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 30vh;
+  }
+  .serengeti__exercusion__para > p {
+    padding-top: 16px;
+    padding-left: 20px;
+  }
+}
+/* Media queries 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .serengeti__excursion {
+    padding: 5px;
+    min-height: 120vh;
+  }
+  .serengeti__excursion__header {
+    display: flex;
+    height: 4vh;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0px 0px 5px;
+  }
+  .serengeti__excursion__header > h1 {
+    font-size: 26px;
+    color: var(--primary_black);
+  }
+  .serengeti__excursion__header .serengeti__exercusion__liner {
+    height: 4px;
+    width: 60px;
+  }
+  .serengeti__execursion__txtImg {
+    display: flex;
+    margin-top: 0px;
+    min-height: 110vh;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .serengeti__exercusion__Img {
+    width: 100%;
+    height: 55vh;
+  }
+  .serengeti__exercusion__Img .serengeti__exercusion__innerDiv {
+    visibility: hidden;
+  }
+  .serengeti__exercusion__text__container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 55vh;
+  }
+  .serengeti__execursion__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    width: 100%;
+  }
+  .serengeti__text__header {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .serengeti__text__header > h2 {
+    font-size: 22px;
+    padding-left: 20px;
+  }
+  .serengeti__exercusion__icon .serengeti__fiHeart {
+    font-size: 1.7rem;
+    color: var(--ghost_white);
+  }
+  .serengeti__exercusion__icon .serengeti__fiHeart.selected {
+    fill: var(--ghost_white);
+    padding: 5px;
+    font-size: 2rem;
+    border-radius: 50%;
+    border: 3px solid var(--ghost_white);
+  }
+  .serengeti__exercusion__para {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 45vh;
+  }
+  .serengeti__exercusion__para > p {
+    padding-top: 1.1rem;
+    padding-left: 20px;
+  }
+}
+/* Media query screen size 400px - 768px */
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .serengeti__excursion {
+    padding: 5px;
+    min-height: 120vh;
+  }
+  .serengeti__excursion__header {
+    display: flex;
+    height: 5vh;
+    width: 100%;
+    align-items: center;
+    padding: 30px 0px 0px 5px;
+  }
+  .serengeti__excursion__header > h1 {
+    font-size: 30px;
+    color: var(--primary_black);
+  }
+  .serengeti__excursion__header .serengeti__exercusion__liner {
+    height: 5px;
+    width: 100px;
+  }
+  .serengeti__execursion__txtImg {
+    display: flex;
+    margin-top: 0px;
+    min-height: 110vh;
+    width: 100%;
+    flex-direction: column;
+    padding-top: 30px;
+  }
+  .serengeti__exercusion__Img {
+    width: 100%;
+    height: 55vh;
+  }
+  .serengeti__exercusion__Img .serengeti__exercusion__innerDiv {
+    visibility: hidden;
+  }
+  .serengeti__exercusion__text__container {
+    display: flex;
+    align-items: flex-start;
+    width: 100%;
+    min-height: 55vh;
+  }
+  .serengeti__execursion__text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    min-height: 50vh;
+    width: 100%;
+  }
+  .serengeti__text__header {
+    display: flex;
+    height: 5vh;
+    align-items: center;
+    margin-top: 0px;
+    padding-top: 10px;
+  }
+  .serengeti__text__header > h2 {
+    font-size: 24px;
+    padding-left: 20px;
+  }
+  .serengeti__exercusion__icon .serengeti__fiHeart {
+    font-size: 2rem;
+    color: var(--ghost_white);
+  }
+  .serengeti__exercusion__icon .serengeti__fiHeart.selected {
+    fill: var(--ghost_white);
+    padding: 5px;
+    font-size: 2.2rem;
+    border-radius: 50%;
+    border: 3px solid var(--ghost_white);
+  }
+  .serengeti__exercusion__para {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 45vh;
+  }
+  .serengeti__exercusion__para > p {
+    padding-top: 1.1rem;
+    padding-left: 20px;
+  }
+}
+/* Media query for screen size less than 1024px */
+@media screen and (min-width: 768px) and (max-width: 1080px) {
+  .serengeti__excursion {
+    height: 8vh;
+    padding-left: 15px;
+  }
+  .serengeti__excursion__header > h1 {
+    font-size: 3rem;
+  }
+  .serengeti__excursion__header .serengeti__exercusion__liner {
+    height: 7px;
+    width: 150px;
+  }
+  .serengeti__exercusion__Img {
+    width: 53%;
+  }
+  .serengeti__exercusion__Img .serengeti__exercusion__innerDiv {
+    width: 2vw;
+    min-height: 60vh;
+  }
+  .serengeti__exercusion__text__container {
+    width: 47%;
+  }
+  .serengeti__execursion__text {
+    min-height: 60vh;
+  }
+  .serengeti__text__header > h2 {
+    font-size: 1.5rem;
+    padding-left: 20px;
+  }
+  .serengeti__exercusion__icon .serengeti__fiHeart {
+    font-size: 1.8rem;
+  }
+  .serengeti__exercusion__para {
+    padding-top: 20px;
+  }
+  .serengeti__exercusion__para > p {
+    color: var(--primary_black);
+    font-size: 16px;
+    text-align: justify;
+    padding-left: 20px;
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "title": "Jioni Safaris Limites",
+        "description": "Jioni Safaris is located nearby Bravo Pizza"
+      },
+      "geometry": {
+        "coordinates": [36.698089039468044, -3.381971039468623],
+        "type": "Point"
+      }
+    }
+  ]
+}

@@ -1,0 +1,78 @@
+.safari__banner {
+  display: flex;
+  width: 100%;
+  min-height: 115vh;
+  background: url(../../Asset/safari__banner__bcg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  background-color: var(--jioni);
+}
+.safari__carosel__container {
+  display: flex;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin-top: 30px;
+}
+.safari__carosel__container .safari__inner__carosel {
+  display: flex;
+  width: 100%;
+  height: 80vh;
+}
+.safari__left__arrow,
+.safari__right__arrow {
+  font-size: 3rem;
+  color: var(--primary_black);
+  margin-bottom: 70px;
+}
+.safari__details__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 30%;
+  height: 100%;
+  margin: 0px;
+  background: rgb(191, 145, 84);
+  background: linear-gradient(
+    185deg,
+    rgba(191, 145, 84, 1) 18%,
+    rgba(97, 81, 59, 1) 100%
+  );
+}
+.safari__details__container > h1 {
+  font-size: 18px;
+  font-weight: 800;
+  color: var(--primary_black);
+  padding-left: 5px;
+}
+.safari__details__container > p {
+  padding: 20px 5px 0px 5px;
+  font-size: 18px;
+  color: var(--primary_black);
+}
+.safari__banner__Img {
+  display: flex;
+  width: 70%;
+  height: 100%;
+}
+.safari__banner__Img > img {
+  width: 100%;
+  height: 100%;
+}
+ul {
+}
+.paging-item {
+  margin-bottom: 30px;
+  font-size: 20px !important;
+}
+.paging-item > button {
+  padding: 5px;
+}
+@media screen and (max-width: 768px) {
+  .safari__banner {
+    display: none;
+  }
+}

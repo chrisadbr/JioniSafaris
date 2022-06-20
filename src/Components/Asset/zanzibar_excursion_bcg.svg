@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="360mm"
+   height="200mm"
+   viewBox="0 0 360 200"
+   version="1.1"
+   id="svg940"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="zanzibar_excursion_bcg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview942"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     width="360mm"
+     inkscape:zoom="0.31723122"
+     inkscape:cx="663.55386"
+     inkscape:cy="561.10493"
+     inkscape:window-width="1366"
+     inkscape:window-height="699"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs937" />
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:#f8f8ff;fill-opacity:1;stroke:none;stroke-width:0.251029px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="M 1.0304831,292.71228 237.55277,326.99366 365.3837,292.2559 Z"
+       id="path1063"
+       sodipodi:nodetypes="cccc" />
+    <g
+       id="g1723"
+       transform="matrix(1,0,0,1.0131447,0,0.01960782)">
+      <path
+         style="fill:#f8f8ff;fill-opacity:1;stroke:none;stroke-width:0.214848px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M 3.405814,0.17689814 240.54497,24.654488 362.15412,0.06930814 364.03087,32.868688 1.946233,31.694328 Z"
+         id="path857" />
+      <path
+         style="fill:#f8f8ff;fill-opacity:1;stroke:none;stroke-width:0.264583px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+         d="M -2.6772354,161.18856 0.38272196,-1.4916904 362.15412,0.06930814 361.67597,160.73218 233.84505,195.46994 Z"
+         id="path1578" />
+    </g>
+  </g>
+</svg>

@@ -1,0 +1,214 @@
+.stonetown {
+  display: flex;
+  flex-direction: column;
+  min-height: 110vh;
+  width: 100%;
+}
+.stonetown__header {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  padding: 70px 0px 0px 70px;
+}
+.stonetown__liner {
+  width: 200px;
+  height: 10px;
+  background-color: var(--jioni);
+}
+.stonetown__header > h1 {
+  font-weight: 800;
+  color: var(--primary_black);
+  font-size: 3.8rem;
+  padding-left: 10px;
+}
+.stonetown__textImg__container {
+  display: flex;
+  justify-content: space-evenly;
+  min-height: 75vh;
+  width: 100%;
+  align-items: center;
+}
+.stonetown__Img__container {
+  width: 50%;
+  height: 70vh;
+  display: flex;
+  padding-left: 60px;
+}
+.stonetown__Img__container .stonetown__Img {
+  width: 100%;
+  height: 70vh;
+}
+.stonetown__textImg__container .stonetown__text {
+  display: flex;
+  align-items: center;
+  width: 42%;
+  min-height: 50vh;
+}
+.stonetown__textImg__container .stonetown__text > p {
+  color: var(--primary_black);
+  font-size: 1.3rem;
+  padding: 0px 30px 30px 30px;
+  text-align: justify;
+}
+.stonetown__textImg__container .stonetown__text > p::first-letter {
+  color: var(--jioni);
+  font-size: 250%;
+}
+/* Media query 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .stonetown {
+    padding: 5px;
+    min-height: 120vh;
+  }
+  .stonetown__header {
+    display: flex;
+    align-items: center;
+    height: 4vh;
+    padding: 10px 0px 0px 5px;
+  }
+  .stonetown__liner {
+    width: 40px;
+    height: 3px;
+    background-color: var(--jioni);
+  }
+  .stonetown__header > h1 {
+    font-size: 23px;
+    padding-left: 10px;
+  }
+  .stonetown__textImg__container {
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    min-height: 110vh;
+    align-items: center;
+    width: 100%;
+  }
+  .stonetown__Img__container {
+    width: 100%;
+    height: 45vh;
+    display: flex;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .stonetown__Img__container .stonetown__Img {
+    width: 100%;
+    height: 40vh;
+  }
+  .stonetown__textImg__container .stonetown__text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+    padding-bottom: 20px;
+  }
+  .stonetown__textImg__container .stonetown__text > p {
+    color: var(--primary_black);
+    font-size: 16px;
+    padding: 0px;
+    text-align: justify;
+  }
+}
+/* Media query 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .stonetown {
+    padding: 5px;
+    min-height: 120vh;
+  }
+  .stonetown__header {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    padding: 10px 0px 0px 5px;
+  }
+  .stonetown__liner {
+    width: 60px;
+    height: 4px;
+    background-color: var(--jioni);
+  }
+  .stonetown__header > h1 {
+    font-size: 26px;
+    padding-left: 10px;
+  }
+  .stonetown__textImg__container {
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    min-height: 110vh;
+    align-items: center;
+    width: 100%;
+  }
+  .stonetown__Img__container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    padding-left: 0px;
+    align-items: center;
+  }
+  .stonetown__Img__container .stonetown__Img {
+    width: 100%;
+    height: 45vh;
+  }
+  .stonetown__textImg__container .stonetown__text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 60vh;
+    padding-bottom: 20px;
+  }
+  .stonetown__textImg__container .stonetown__text > p {
+    color: var(--primary_black);
+    font-size: 1.1rem;
+    padding: 0px;
+    text-align: justify;
+  }
+}
+/* Media query  400px - 768px*/
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .stonetown {
+    padding: 5px;
+    min-height: 80vh;
+  }
+  .stonetown__header {
+    display: flex;
+    align-items: center;
+    height: 5vh;
+    padding: 20px 0px 0px 5px;
+  }
+  .stonetown__liner {
+    width: 100px;
+    height: 5px;
+    background-color: var(--jioni);
+  }
+  .stonetown__header > h1 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  .stonetown__textImg__container {
+    flex-direction: column-reverse;
+    padding-top: 0px;
+    justify-content: center;
+    min-height: 110vh;
+    width: 100%;
+  }
+  .stonetown__Img__container {
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    align-items: center;   
+    padding-left: 0px;
+  }
+  .stonetown__Img__container .stonetown__Img {
+    width: 100%;
+    height: 45vh;
+  }
+  .stonetown__textImg__container .stonetown__text {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    min-height: 50vh;
+  }
+  .stonetown__textImg__container .stonetown__text > p {
+    color: var(--primary_black);
+    font-size: 1.1rem;
+    padding: 0px;
+    text-align: justify;
+  }
+}

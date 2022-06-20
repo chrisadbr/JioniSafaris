@@ -1,0 +1,280 @@
+.resorts {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  background: url(../../Asset/resorts_bcg.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+}
+.resorts__crs__container {
+  min-height: 90vh;
+  width: 100%;
+  margin-top: 260px;
+}
+.resort__slide__container {
+  display: flex;
+  min-height: 86vh;
+  width: 100%;
+}
+.resort__text__container {
+  display: flex;
+  flex-direction: column;
+  width: 30%;
+  height: 75vh;
+  justify-content: center;
+}
+.resort__text__header {
+  display: flex;
+  font-weight: 800;
+  height: 15vh;
+  width: 100%;
+  align-items: center;
+  padding: 10px 10px 0px 10px;
+  opacity: 0.9;
+}
+.resort__text__header > h2 {
+  color: var(--primary_black);
+  font-weight: 800;
+  font-size: 2rem;
+}
+.resort__text__desc {
+  display: flex;
+  width: 100%;
+  padding: 10px 10px 0px 10px;
+  height: 20vh;
+}
+.resort__text__desc > p {
+  color: var(--primary_black);
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+.resort__Img__container {
+  display: flex;
+  height: 75vh;
+  width: 70%;
+}
+.resort__Img__container .resort__Img__item {
+  width: 100%;
+  height: 100%;
+}
+.resorts__crs__container .paging-item button {
+  margin-top: 20px !important;
+  fill: var(--jioni) !important;
+}
+.resort__right__arrow,
+.resort__left__arrow {
+  font-size: 3rem;
+  color: var(--jioni);
+}
+/* Media queries 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .resorts {
+    padding: 0px;
+    align-items: center;
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    margin-top: -1px;
+  }
+  .resorts__crs__container {
+    min-height: 70vh;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resort__slide__container {
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 65vh;
+    border-bottom: 2px solid var(--jioni);
+    display: flex;
+    align-items: center;
+  }
+  .resort__Img__container {
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+  }
+  .resort__Img__container > img {
+    width: 100%;
+    height: 35vh;
+  }
+  .resort__right__arrow,
+  .resort__left__arrow {
+    display: none;
+  }
+  .resort__text__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+  }
+  .resort__text__header {
+    height: 4vh;
+    align-items: center;
+    padding: 5px 0px;
+    opacity: 0.9;
+  }
+  .resort__text__header > h2 {
+    font-weight: 800;
+    font-size: 20px;
+  }
+  .resort__text__desc {
+    display: flex;
+    width: 100%;
+    padding: 5px 0px 10px 0px;
+    height: 18vh;
+  }
+  .resorts__crs__container .paging-dot {
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+  }
+  .resort__text__desc > p {
+    color: var(--primary_black);
+    font-size: 13px;
+    font-weight: 400;
+  }
+}
+/* Media queries 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .resorts {
+    padding: 0px;
+    align-items: center;
+    min-height: 75vh;
+    width: 100%;
+    display: flex;
+    margin-top: -1px;
+  }
+  .resorts__crs__container {
+    min-height: 70vh;
+    width: 100%;
+    margin-top: 0px;
+    padding-top: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .resort__slide__container {
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 65vh;
+    border-bottom: 2px solid var(--jioni);
+    display: flex;
+    align-items: center;
+  }
+  .resort__Img__container {
+    width: 100%;
+    height: 40vh;
+    align-items: center;
+    display: flex;
+  }
+  .resort__Img__container > img {
+    width: 100%;
+    height: 35vh;
+  }
+  .resort__right__arrow,
+  .resort__left__arrow {
+    display: none;
+  }
+  .resort__text__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+  }
+  .resort__text__header {
+    height: 4vh;
+    align-items: center;
+    padding: 5px 0px;
+    opacity: 0.9;
+  }
+  .resort__text__header > h2 {
+    font-weight: 600;
+    font-size: 25px;
+  }
+  .resort__text__desc {
+    display: flex;
+    width: 100%;
+    padding: 5px 0px 10px 0px;
+    height: 18vh;
+  }
+  .resorts__crs__container .paging-dot {
+    display: flex;
+    align-items: center;
+    margin-bottom: -10px;
+  }
+  .resort__text__desc > p {
+    color: var(--primary_black);
+    font-size: 15px;
+    font-weight: 400;
+  }
+}
+/* Media queries 400px - 768px*/
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .resorts {
+    padding: 0px;
+    align-items: center;
+    min-height: 70vh;
+    width: 100%;
+    margin-top: -1px;
+  }
+  .resorts__crs__container {
+    min-height: 65vh;
+    width: 100%;
+    margin-top: 80px;
+  }
+  .resort__slide__container {
+    flex-direction: column-reverse;
+    width: 100%;
+    min-height: 62vh;
+    border-bottom: 2px solid var(--jioni);
+  }
+  .resort__Img__container {
+    width: 100%;
+    height: 35vh;
+  }
+  .resort__Img__container > img {
+    width: 100%;
+    height: 100%;
+  }
+  .resort__right__arrow,
+  .resort__left__arrow {
+    display: none;
+  }
+  .resort__text__container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: 25vh;
+  }
+  .resort__text__header {
+    height: 5vh;
+    align-items: center;
+    padding: 5px 0px;
+    opacity: 0.9;
+  }
+  .resort__text__header > h2 {
+    font-weight: 800;
+    font-size: 25px;
+  }
+  .resort__text__desc {
+    display: flex;
+    width: 100%;
+    padding: 5px 0px;
+    height: 18vh;
+  }
+  .resorts__crs__container .paging-dot {
+    display: flex;
+    align-items: center;
+  }
+  .resort__text__desc > p {
+    color: var(--primary_black);
+    font-size: 15px;
+    font-weight: 400;
+  }
+}

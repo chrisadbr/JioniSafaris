@@ -1,0 +1,52 @@
+.contact__banner {
+  display: flex;
+  width: 100%;
+  min-height: 115vh;
+  background: url(../../Asset/contact_banner_bcg.svg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.contact__banner__motto__container {
+  display: flex;
+  min-height: 40vh;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 50px;
+}
+.contact__banner__moto {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+  width: 100%;
+}
+.contact__banner__moto > h1 {
+  font-size: 5rem;
+  opacity: 0.6;
+}
+.contact__banner__link {
+  height: 5vh;
+  width: 200px;
+}
+.contact__banner__btn {
+  text-decoration: none;
+  color: var(--jioni);
+  background-color: var(--primary_black);
+  padding: 7px 20px;
+  border-radius: 999px;
+  font-size: 1.3rem;
+  font-weight: 800;
+  border: none;
+}
+.contact__banner__btn:hover {
+  cursor: pointer;
+  opacity: 0.8;
+}
+/* Media queries */
+@media screen and (max-width: 768px) {
+  .contact__banner {
+    display: none;
+  }
+}

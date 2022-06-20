@@ -1,0 +1,366 @@
+.contact__form {
+  display: flex;
+  min-height: 100vh;
+  width: 100%;
+  flex-direction: column;
+}
+.contact__form__header {
+  display: flex;
+  width: 100%;
+  height: 10vh;
+  align-items: center;
+  padding-left: 70px;
+  padding-top: 100px;
+}
+.contact__form__header > h1 {
+  font-size: 3.8rem;
+  color: var(--primary_black);
+  padding-left: 10px;
+}
+.contact__form__header .contact__form__liner {
+  height: 10px;
+  width: 200px;
+  background-color: var(--jioni);
+}
+.contact__form__container {
+  display: flex;
+  min-height: 80vh;
+  width: 100%;
+  align-items: center;
+}
+.contact__form__ {
+  display: flex;
+  width: 60%;
+  min-height: 70vh;
+  justify-content: flex-start;
+  align-items: center;
+  padding-left: 70px;
+}
+.contact__form__ form div {
+  margin-top: 7px;
+}
+.contact__form__ input {
+  width: 100%;
+  height: 50px;
+  font-size: 1.2rem;
+  outline: none;
+  border: 1px dashed var(--primary_black);
+}
+.email__input {
+  width: 700px;
+}
+.contact__form__ textarea {
+  width: 700px;
+  height: 200px;
+  border: 1px dashed var(--primary_black);
+  font-size: 1.2rem;
+  outline: none;
+}
+.contact__form__ button {
+  width: 700px;
+  height: 50px;
+  background-color: var(--primary_black);
+  border: none;
+  font-size: 1.2rem;
+  color: var(--white);
+  font-weight: 600;
+}
+.contact__other__contacts {
+  display: flex;
+  width: 40%;
+  height: 90vh;
+  align-items: center;
+  justify-content: center;
+}
+.contact__mail__info {
+  width: 65%;
+  min-height: 30vh;
+  align-items: center;
+  flex-direction: column;
+  border-top: 3px solid var(--jioni);
+  border-bottom: 3px solid var(--jioni);
+}
+.address__location {
+  display: flex;
+  height: 5vh;
+  width: 100%;
+  align-items: center;
+  margin: 10px 0px;
+}
+.address__location .address__icon {
+  color: var(--jioni);
+  font-size: 1.6rem;
+}
+.contact__mail__info h3 {
+  color: var(--primary_black);
+}
+.contact__mail__info .address__header {
+  color: var(--primary_black);
+  padding-left: 20px;
+  text-align: left;
+}
+.address__header__h3 {
+  padding-left: 45px;
+  font-size: 16px;
+}
+.contact__mail__info p {
+  color: var(--primary_black);
+  text-align: center;
+  font-size: 1.2rem;
+  padding-bottom: 10px;
+}
+.contact__phonenumber {
+  display: flex;
+  height: 5vh;
+  width: 100%;
+  margin-top: 10px;
+  align-items: center;
+}
+.contact__phonenumber .contact__phonenumber__icon {
+  color: var(--jioni);
+  font-size: 1.6rem;
+}
+.contact__phonenumber .contact__phonenumber__header {
+  color: var(--primary_black);
+  padding-left: 20px;
+}
+.contact__phonenumber__para {
+  text-align: left !important;
+  padding-left: 45px !important;
+}
+.contact__email {
+  display: flex;
+  height: 5vh;
+  align-items: center;
+  padding: 10px 0px;
+}
+.contact__email__icon {
+  color: var(--jioni);
+  font-size: 1.6rem;
+}
+.contact__email__header {
+  padding-left: 20px;
+}
+.contact__email__para {
+  text-align: left !important;
+  padding-left: 45px;
+}
+.MuiSnackbar-root.MuiSnackbar-anchorOriginBottomLeft.css-cpgvjg-MuiSnackbar-root {
+  display: flex;
+  flex-direction: column;
+  width: 20vw;
+  background-color: white !important;
+}
+/* Media queries */
+/* 300px -  399px*/
+@media screen and (min-width: 300px) and (max-width: 399px){
+  .contact__form {
+    min-height: 100vh;
+    width: 100%;
+    padding: 5px;
+  }
+  .contact__form__header {
+    height: 5vh;
+    padding-left: 10px;
+    padding-top: 40px;
+  }
+  .contact__form__header > h1 {
+    font-size: 35px;
+    color: var(--primary_black);
+    padding-left: 10px;
+  }
+  .contact__form__header .contact__form__liner {
+    height: 5px;
+    width: 70px;
+  }
+  .contact__form__container {
+    display: flex;
+    min-height: 80vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact__form__ {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 40vh;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  .contact__form__ input {
+    width: 96vw;
+    height: 35px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px dashed var(--primary_black);
+  }
+  .email__input {
+    width: 96vw;
+  }
+  .contact__form__ textarea {
+    width: 96vw;
+    height: 130px;
+    font-size: 1rem;
+  }
+  .contact__form__ button {
+    width: 96vw;
+    height: 35px;
+    font-size: 1.1rem;
+  }
+  .contact__other__contacts {
+    width: 100%;
+    height: 65vh;
+    padding: 30px 0px;
+  }
+  .contact__mail__info {
+    width: 55%;
+  }
+
+  .address__location .address__icon {
+    color: var(--jioni);
+    font-size: 1.3rem;
+  }
+  .contact__mail__info .address__header {
+    font-size: 16px;
+  }
+  .address__header__h3 {
+    font-size: 11px;
+    padding-left: 38px;
+  }
+  .contact__mail__info p {
+    color: var(--primary_black);
+    text-align: left;
+    font-size: 12px;
+    padding-left: 37px;
+  }
+  .contact__phonenumber .contact__phonenumber__icon {
+    font-size: 1.3rem;
+  }
+  .contact__phonenumber .contact__phonenumber__header {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .contact__phonenumber__para {
+    padding-left: 40px !important;
+  }
+  .contact__email__icon {
+    font-size: 1.3rem;
+  }
+  .contact__email__header {
+    padding-left: 20px;
+    font-size: 16px;
+  }
+  .contact__email__para {
+    text-align: left !important;
+    padding-left: 45px;
+  }
+  .MuiSnackbar-root.MuiSnackbar-anchorOriginBottomLeft.css-cpgvjg-MuiSnackbar-root {
+    display: flex;
+    flex-direction: column;
+    width: 50px !important;
+    background-color: white !important;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .contact__form {
+    min-height: 100vh;
+    width: 100%;
+    padding: 5px;
+  }
+  .contact__form__header {
+    height: 5vh;
+    padding-left: 10px;
+    padding-top: 40px;
+  }
+  .contact__form__header > h1 {
+    font-size: 35px;
+    color: var(--primary_black);
+    padding-left: 10px;
+  }
+  .contact__form__header .contact__form__liner {
+    height: 5px;
+    width: 70px;
+  }
+  .contact__form__container {
+    display: flex;
+    min-height: 80vh;
+    width: 100%;
+    align-items: center;
+    flex-direction: column;
+  }
+  .contact__form__ {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    min-height: 40vh;
+    padding-left: 0px;
+    padding-top: 20px;
+  }
+  .contact__form__ input {
+    width: 96vw;
+    height: 35px;
+    font-size: 1rem;
+    outline: none;
+    border: 1px dashed var(--primary_black);
+  }
+  .email__input {
+    width: 96vw;
+  }
+  .contact__form__ textarea {
+    width: 96vw;
+    height: 130px;
+    font-size: 1rem;
+  }
+  .contact__form__ button {
+    width: 96vw;
+    height: 35px;
+    font-size: 1.1rem;
+  }
+  .contact__other__contacts {
+    width: 100%;
+    height: 50vh;
+  }
+  .contact__mail__info {
+    width: 55%;
+  }
+
+  .address__location .address__icon {
+    color: var(--jioni);
+    font-size: 1.3rem;
+  }
+  .contact__mail__info .address__header {
+    font-size: 17px;
+  }
+  .address__header__h3 {
+    font-size: 14px;
+    padding-left: 38px;
+  }
+  .contact__mail__info p {
+    color: var(--primary_black);
+    text-align: left;
+    font-size: 12px;
+    padding-left: 37px;
+  }
+  .contact__phonenumber .contact__phonenumber__icon {
+    font-size: 1.3rem;
+  }
+  .contact__phonenumber .contact__phonenumber__header {
+    padding-left: 20px;
+    font-size: 17px;
+  }
+  .contact__phonenumber__para {
+    padding-left: 40px !important;
+  }
+  .contact__email__icon {
+    font-size: 1.3rem;
+  }
+  .contact__email__header {
+    padding-left: 20px;
+    font-size: 17px;
+  }
+  .contact__email__para {
+    text-align: left !important;
+    padding-left: 45px;
+  }
+}

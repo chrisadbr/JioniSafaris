@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   width="368mm"
+   height="192mm"
+   viewBox="0 0 368 192"
+   version="1.1"
+   id="svg5"
+   inkscape:version="1.1.2 (0a00cf5339, 2022-02-04)"
+   sodipodi:docname="safari__banner__bcg.svg"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview7"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:document-units="mm"
+     showgrid="false"
+     height="184mm"
+     inkscape:zoom="0.3732132"
+     inkscape:cx="896.27055"
+     inkscape:cy="541.24559"
+     inkscape:window-width="1366"
+     inkscape:window-height="699"
+     inkscape:window-x="0"
+     inkscape:window-y="32"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="layer1" />
+  <defs
+     id="defs2">
+    <linearGradient
+       inkscape:collect="always"
+       id="linearGradient1468">
+      <stop
+         style="stop-color:#bf9154;stop-opacity:1"
+         offset="0"
+         id="stop1464" />
+      <stop
+         style="stop-color:#313233;stop-opacity:1"
+         offset="1"
+         id="stop1634" />
+      <stop
+         style="stop-color:#313233;stop-opacity:0.24705882"
+         offset="1"
+         id="stop1466" />
+    </linearGradient>
+    <linearGradient
+       inkscape:collect="always"
+       xlink:href="#linearGradient1468"
+       id="linearGradient1470"
+       x1="151.23886"
+       y1="13.460656"
+       x2="144.06248"
+       y2="202.16029"
+       gradientUnits="userSpaceOnUse"
+       gradientTransform="matrix(1,0,0,1.1335178,0,0.21850609)" />
+  </defs>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1">
+    <path
+       style="fill:url(#linearGradient1470);fill-opacity:1;stroke:none;stroke-width:0.281693px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m -2.7376628,-0.88702926 1.382007,156.35168926 64.9787688,9.61695 192.553417,25.112 113.81742,-38.22237 0.31875,-153.6077712 z"
+       id="path1185"
+       sodipodi:nodetypes="ccccccc" />
+  </g>
+</svg>

@@ -1,0 +1,50 @@
+.topbar {
+  display: flex;
+  min-height: 8vh;
+  width: 100%;
+  background-color: var(--primary_black);
+}
+.topbar__container {
+  display: flex;
+  width: 100%;
+}
+.topbar__container .social__media {
+  width: 50%;
+  display: flex;
+  justify-content: flex-end;
+  font-size: 17px;
+  align-items: center;
+  margin-right: 30px;
+}
+.topbar__container .social__media > div {
+  margin: 10px;
+}
+.topbar__container .social__media > div > a {
+  color: var(--jioni);
+}
+.topbar__container .other__contacts {
+  width: 50%;
+  height: 5vh;
+  display: flex;
+  align-items: center;
+  color: var(--jioni);
+  margin-left: 30px;
+  font-weight: 400;
+}
+.topbar__container .other__contacts > div {
+  display: flex;
+  align-items: center;
+  height: 4vh;
+  width: 100%;
+}
+.other__contacts .phone__number {
+  margin-left: 10px;
+}
+.other__contacts .mail__info {
+  margin-left: 10px;
+}
+@media screen and (max-width: 768px) {
+  .topbar {
+    display: none;
+  }
+}

@@ -1,0 +1,346 @@
+.trekking__packages {
+  display: flex;
+  width: 100%;
+  min-height: 110vh;
+  align-items: center;
+  background: url(../../Asset/trekking_packages.svg);
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-color: var(--primary_black);
+}
+.trekking__packages__container {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  width: 100%;
+  height: 110vh;
+  align-items: flex-end;
+}
+.trekking__packages__container .trekking__container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 30vw;
+}
+.trekking__packages__container .trekking__container .trekking__bcg {
+  display: flex;
+  height: 50vh;
+  width: 100%;
+  overflow: hidden;
+}
+.trekking__packages__container .trekking__container .trekking__bcg:hover{
+  display: flex;
+  height: 50vh;
+  width: 100%;
+}
+.trekking__packages__container .trekking__container .trekking__bcg > img {
+  display: flex;
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: transform 0.5s ease-in-out;
+}
+.trekking__bcg:hover img{
+  transform: scale(1.1);
+}
+.trekking__title {
+  color: var(--primary_black);
+  display: flex;
+  border-bottom: 3px solid var(--primary_black);
+  padding: 10px 0px 10px 10px;
+  height: 12vh;
+  align-items: center;
+}
+.trekking__kili {
+  background-color: var(--jioni);
+  height: 20vh;
+  width: 100%;
+}
+.trekking__meru {
+  background-color: rgb(177, 171, 171);
+  height: 20vh;
+  width: 100%;
+}
+.trekking__ngorongoro {
+  background-color: var(--min_jioni);
+  height: 20vh;
+  width: 100%;
+}
+.trekking__packages__container .trekking__container .trekking__package {
+  height: 8vh;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+.trekking__packages__container .trekking__container .trekking__package > h4 {
+  color: var(--primary_black);
+  font-size: 1.16rem;
+  margin-left: 15px;
+  font-weight: 400;
+}
+.trekking__package .heart__icon__kili:hover {
+  cursor: pointer;
+}
+.trekking__package .heart__icon__kili {
+  color: var(--primary_black);
+  font-size: 1.7rem;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.trekking__package .heart__icon__kili.selected {
+  fill: var(--primary_black);
+  font-size: 2.1rem;
+  border: 2px solid var(--primary_black);
+  border-radius: 50%;
+  padding: 4px;
+}
+.trekking__package .heart__icon__meru:hover {
+  cursor: pointer;
+}
+.trekking__package .heart__icon__meru {
+  color: var(--primary_black);
+  font-size: 1.7rem;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.trekking__package .heart__icon__meru.selected {
+  fill: var(--primary_black);
+  font-size: 2.1rem;
+  border: 2px solid var(--primary_black);
+  border-radius: 50%;
+  padding: 4px;
+}
+.trekking__package .heart__icon__ngorongoro:hover {
+  cursor: pointer;
+}
+.trekking__package .heart__icon__ngorongoro {
+  color: var(--primary_black);
+  font-size: 1.7rem;
+  margin-left: auto;
+  margin-right: 20px;
+}
+.trekking__package .heart__icon__ngorongoro.selected {
+  fill: var(--primary_black);
+  font-size: 2.1rem;
+  border: 2px solid var(--primary_black);
+  border-radius: 50%;
+  padding: 4px;
+}
+/* Media queries 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px){
+  .trekking__packages {
+    min-height: 200vh;
+    align-items: center;
+    padding-top: 60px;
+    margin-top: -6px;
+  }
+  .trekking__packages__container {
+    align-items: center;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    min-height: 167vh;
+  }
+  .trekking__packages__container .trekking__container .trekking__bcg {
+    transition: none;
+    object-fit: none;
+  }
+  .trekking__packages__container .trekking__container .trekking__bcg:hover{
+    transform: none;
+  }
+  .trekking__packages__container .trekking__container {
+    height: 45vh;
+    width: 95vw;
+    margin-bottom: 90px;
+    overflow: visible;
+  }
+  .trekking__title {
+    border-bottom: 3px solid var(--primary_black);
+    height: 12vh;
+    text-align: center;
+    align-items: center;
+  }
+  .trekking__title > h2 {
+    text-align: center;
+    font-size: 16px;
+    width: 100%;
+  }
+  .trekking__title {
+    border-bottom: 2px solid var(--primary_black);
+    padding: 5px 0px 5px 5px;
+    height: 8vh;
+  }
+  .trekking__kili {
+    background-color: var(--jioni);
+    height: 15vh;
+    width: 100%;
+  }
+  .trekking__meru {
+    background-color: rgb(177, 171, 171);
+    height: 15vh;
+    width: 100%;
+  }
+  .trekking__ngorongoro {
+    background-color: var(--min_jioni);
+    height: 15vh;
+    width: 100%;
+  }
+  .trekking__kili .trekking__package > h4,
+  .trekking__meru .trekking__package > h4,
+  .trekking__ngorongoro .trekking__package > h4{
+   font-size: 14px !important;
+  }
+  .trekking__kili .trekking__package .heart__icon__kili,
+  .trekking__meru .trekking__package .heart__icon__meru,
+  .trekking__ngorongoro .trekking__package .heart__icon__ngorongoro{
+   font-size: 18px !important;
+  }
+  .trekking__package .heart__icon__kili.selected,
+  .trekking__package .heart__icon__ngorongoro.selected, 
+  .trekking__package .heart__icon__meru.selected  {
+    fill: var(--primary_black);
+    font-size: 1.6rem !important;
+    border: 2px solid var(--primary_black);
+    border-radius: 50%;
+    padding: 3px;
+  }
+}
+/* Media queries 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .trekking__packages {
+    min-height: 200vh;
+    align-items: center;
+    padding-top: 60px;
+    margin-top: -5px;
+  }
+  .trekking__packages__container {
+    min-height: 170vh;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+  }
+  .trekking__packages__container .trekking__container .trekking__bcg {
+    transition: none;
+    object-fit: none;
+  }
+  .trekking__packages__container .trekking__container .trekking__bcg:hover{
+    transform: none;
+  }
+  .trekking__packages__container .trekking__container {
+    height: 45vh;
+    width: 95vw;
+    overflow: visible;
+    margin-bottom: 100px;
+  }
+  .trekking__title {
+    border-bottom: 3px solid var(--primary_black);
+    height: 10vh;
+    text-align: center;
+    align-items: center;
+  }
+  .trekking__title > h2 {
+    text-align: center;
+    font-size: 18px;
+    width: 100%;
+  }
+  .trekking__title {
+    border-bottom: 2px solid var(--primary_black);
+    padding: 5px 0px 5px 5px;
+    height: 8vh;
+  }
+  .trekking__kili {
+    background-color: var(--jioni);
+    height: 15vh;
+    width: 100%;
+  }
+  .trekking__meru {
+    background-color: rgb(177, 171, 171);
+    height: 15vh;
+    width: 100%;
+  }
+  .trekking__ngorongoro {
+    background-color: var(--min_jioni);
+    height: 15vh;
+    width: 100%;
+  }
+  .trekking__kili .trekking__package > h4,
+  .trekking__meru .trekking__package > h4,
+  .trekking__ngorongoro .trekking__package > h4{
+   font-size: 18px !important;
+  }
+  .trekking__kili .trekking__package .heart__icon__kili,
+  .trekking__meru .trekking__package .heart__icon__meru,
+  .trekking__ngorongoro .trekking__package .heart__icon__ngorongoro{
+   font-size: 25px !important;
+  }
+  .trekking__package .heart__icon__kili.selected,
+  .trekking__package .heart__icon__ngorongoro.selected, 
+  .trekking__package .heart__icon__meru.selected  {
+    fill: var(--primary_black);
+    font-size: 1.8rem !important;
+    border: 2px solid var(--primary_black);
+    border-radius: 50%;
+    padding: 3px;
+  }
+}
+/* }Media queries 400px - 768px */
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .trekking__packages {
+    min-height: 215vh;
+    align-items: center;
+    padding-top: 60px;
+    margin-top: -2px;
+  }
+  .trekking__packages__container {
+    min-height: 200vh;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    margin-bottom: 30px;
+  }
+  .trekking__packages__container .trekking__container .trekking__bcg {
+    transition: none;
+    object-fit: none;
+  }
+  .trekking__packages__container .trekking__container .trekking__bcg:hover{
+    transform: none;
+  }
+  .trekking__packages__container .trekking__container {
+    height: 50vh;
+    width: 95vw;
+    overflow: visible;
+  }
+  .trekking__title {
+    font-size: 13px;
+    border-bottom: 3px solid var(--primary_black);
+    height: 12vh;
+    text-align: center;
+    align-items: center;
+  }
+  .trekking__title > h2 {
+    text-align: center;
+    width: 100%;
+    font-size: 1.5rem;
+  }
+  .trekking__title {
+    border-bottom: 2px solid var(--primary_black);
+    padding: 5px 0px 5px 5px;
+    height: 8vh;
+  }
+  .trekking__kili {
+    background-color: var(--jioni);
+    height: 15vh;
+    width: 100%;
+  }
+  .trekking__meru {
+    background-color: rgb(177, 171, 171);
+    height: 15vh;
+    width: 100%;
+  }
+  .trekking__ngorongoro {
+    background-color: var(--min_jioni);
+    height: 15vh;
+    width: 100%;
+  }
+}

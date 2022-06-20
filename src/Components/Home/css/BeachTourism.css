@@ -1,0 +1,233 @@
+.beach__tourism {
+  display: flex;
+  min-height: 100vh;
+  background-color: var(--primary_black);
+  width: 100%;
+}
+.beach__tourism__container {
+  min-height: 100vh;
+  width: 100%;
+}
+.beach__header__container {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  padding-left: 70px;
+}
+.beach__header__container {
+  display: flex;
+  align-items: center;
+  height: 20vh;
+  padding-left: 70px;
+}
+.beach__header__line {
+  width: 200px;
+  height: 10px;
+  background-color: var(--jioni);
+}
+.beach__tourism__container .beach__header__container > h1 {
+  font-size: 3.8rem;
+  color: var(--white);
+  padding-left: 10px;
+  font-weight: 800;
+}
+.beach__text__image__container {
+  display: flex;
+  align-items: center;
+  min-height: 80vh;
+  width: 100%;
+}
+.beach__text__container {
+  display: flex;
+  width: 45%;
+  min-height: 80vh;
+  margin-left: 70px;
+}
+.beach__text__container > p {
+  color: var(--white);
+  font-size: 1.25rem;
+  width: 450px;
+  text-align: justify;
+  padding: 30px 0px 0px 0px;
+}
+.beach__text__container > p::first-letter {
+  color: var(--jioni);
+  font-size: 250%;
+}
+.beach__img__container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 50%;
+  min-height: 80vh;
+  padding: 30px 30px 30px 0px;
+}
+.beach__img__container .beach__resort__img {
+  width: 98%;
+  height: 400px;
+}
+.beach__img__footnote {
+  display: flex;
+  justify-content: flex-end;
+  width: 100%;
+  font-size: 13px;
+  color: var(--jioni);
+  padding-right: 65px;
+}
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .beach__tourism {
+    padding: 5px;
+    min-height: 110vh;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin-top: -2px;  
+}
+  .beach__header__container {
+    height: 4vh;
+    padding-left: 10px;
+    padding-top: 40px;
+    width: 100%;
+  }
+  .beach__header__line {
+    width: 40px;
+    height: 3px;
+    margin-right: 0;
+  }
+  .beach__tourism__container .beach__header__container > h1 {
+    font-size: 23px;
+    padding-left: 10px;
+  }
+  .beach__text__image__container {
+    flex-direction: column-reverse;
+    display: flex;
+    min-height: 100vh;
+    padding-top: 30px;
+  }
+  .beach__img__container {
+    width: 100%;
+    min-height: 45vh;
+    padding: 0px;
+  }
+  .beach__img__container .beach__resort__img {
+    width: 100%;
+    height: 40vh;
+  }
+  .beach__img__footnote {
+    padding-right: 10px;
+  }
+  .beach__text__container {
+    width: 100%;
+    min-height: 50vh;
+    margin: 0px;
+    display: flex;
+    align-items: flex-start;
+    margin-left: 0px;
+    padding: 0px 0px 20px 0px;
+  }
+  .beach__text__container > p {
+    font-size: 16px;
+  }
+}
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .beach__tourism {
+    padding: 5px;
+    margin-top: -2px;
+  }
+  .beach__header__container {
+    height: 4vh;
+    padding-left: 10px;
+    padding-top: 40px;
+    width: 100%;
+  }
+  .beach__header__line {
+    width: 60px;
+    height: 4px;
+    margin-right: 0;
+  }
+  .beach__tourism__container .beach__header__container > h1 {
+    font-size: 25px;
+    padding-left: 10px;
+  }
+  .beach__text__image__container {
+    flex-direction: column-reverse;
+    display: flex;
+    padding-top: 30px;
+  }
+  .beach__img__container {
+    width: 100%;
+    min-height: 45vh;
+    justify-content: center;
+    padding: 0px 0px 0px 0px;
+  }
+  .beach__img__container .beach__resort__img {
+    width: 100%;
+    height: 42vh;
+  }
+  .beach__img__footnote {
+    padding-right: 10px;
+  }
+  .beach__text__container {
+    width: 100%;
+    min-height: 50vh;
+    margin-left: 0;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+  .beach__text__container > p {
+    font-size: 1.1rem;
+  }
+}
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .beach__tourism {
+    padding: 5px;
+    margin-top: -1px;
+  }
+  .beach__header__line {
+    width: 60px;
+    height: 5px;
+    margin-right: 0;
+  }
+  .beach__header__container {
+    height: 5vh;
+    padding-left: 10px;
+    padding-top: 40px;
+    width: 100%;
+  }
+  .beach__header__line {
+    width: 60px;
+    height: 5px;
+    margin-right: 0;
+  }
+  .beach__tourism__container .beach__header__container > h1 {
+    font-size: 30px;
+    padding-left: 10px;
+  }
+  .beach__text__image__container {
+    flex-direction: column-reverse;
+  }
+  .beach__img__container {
+    width: 100%;
+    min-height: 40vh;
+    justify-content: center;
+    padding: 30px 0px 0px 0px;
+  }
+  .beach__img__container .beach__resort__img {
+    width: 100%;
+    height: 60%;
+  }
+  .beach__img__footnote {
+    padding-right: 20px;
+  }
+  .beach__text__container {
+    width: 100%;
+    min-height: 50vh;
+    margin-left: 0;
+    justify-content: center;
+  }
+  .beach__text__container > p {
+    font-size: 1.2rem;
+  }
+}

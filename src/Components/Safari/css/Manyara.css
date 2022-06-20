@@ -1,0 +1,197 @@
+.manyara {
+  display: flex;
+  flex-direction: column;
+  min-height: 124vh;
+  width: 100%;
+  background-image: url('../../Asset/manyara_bcg.svg'),
+  linear-gradient(to bottom, var(--primary_black), var(--primary_black));
+  /* background: url(../../Images/manyara_bcg.svg); */
+  background-repeat: no-repeat;
+  background-size: 100%;
+  justify-content: center;
+}
+.manyara__header__container {
+  display: flex;
+  align-items: center;
+  height: 10vh;
+  padding: 180px 0px 0px 70px;
+}
+.manyara__header__container > h1 {
+  color: var(--jioni);
+  font-size: 3.8rem;
+  font-weight: 800;
+  padding-left: 10px;
+}
+.manyara__header__container .manyara__liner {
+  background-color: var(--white);
+  width: 200px;
+  height: 10px;
+}
+.manyara__txtImg__container {
+  display: flex;
+  padding-top: 70px;
+  justify-content: space-evenly;
+  min-height: 100vh;
+  width: 100%;
+}
+.manyara__txt__container {
+  display: flex;
+  width: 42%;
+  height: 75vh;
+}
+.manyara__txt__container > p {
+  color: var(--white);
+  font-size: 1.3rem;
+  text-align: justify;
+  width: 100%;
+  height: 100%;
+}
+.manyara__txt__container > p::first-letter {
+  color: var(--jioni);
+  font-size: 250%;
+}
+.manyara__Img__container {
+  display: flex;
+  width: 45%;
+  height: 75vh;
+}
+.manyara__Img__container .manyara__Img {
+  width: 100%;
+  height: 100%;
+}
+/* Media queries 300px - 349px */
+@media screen and (min-width: 300px) and (max-width: 349px) {
+  .manyara {
+    padding: 5px;
+    min-height: 150vh;
+    background-color: var(--primary_black);
+    margin-top: -2px;
+  }
+  .manyara__header__container {
+    height: 4vh;
+    padding: 70px 0px 0px 10px;
+  }
+  .manyara__header__container > h1 {
+    font-size: 23px;
+    padding-left: 10px;
+  }
+  .manyara__header__container .manyara__liner {
+    background-color: var(--white);
+    width: 40px;
+    height: 3px;
+  }
+  .manyara__txtImg__container {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column-reverse;
+  }
+  .manyara__txt__container {
+    display: flex;
+    width: 100%;
+    min-height: 95vh;
+    align-items: center;
+  }
+  .manyara__txt__container > p {
+    font-size: 16px;
+  }
+  .manyara__Img__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 45vh;
+  }
+  .manyara__Img__container .manyara__Img {
+    width: 100%;
+    height: 40vh;
+  }
+}
+/* Media queries 350px - 399px */
+@media screen and (min-width: 350px) and (max-width: 399px) {
+  .manyara {
+    padding: 5px;
+    min-height: 150vh;
+    background-color: var(--primary_black);
+  }
+  .manyara__header__container {
+    height: 5vh;
+    padding: 70px 0px 0px 10px;
+  }
+  .manyara__header__container > h1 {
+    font-size: 26px;
+    padding-left: 10px;
+  }
+  .manyara__header__container .manyara__liner {
+    background-color: var(--white);
+    width: 60px;
+    height: 4px;
+  }
+  .manyara__txtImg__container {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column-reverse;
+  }
+  .manyara__txt__container {
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+    align-items: center;
+  }
+  .manyara__txt__container > p {
+    font-size: 1.1rem;
+  }
+  .manyara__Img__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+  }
+  .manyara__Img__container .manyara__Img {
+    width: 100%;
+    height: 45vh;
+  }
+}
+/* Media queries 400px - 768px */
+@media screen and (min-width: 400px) and (max-width: 768px) {
+  .manyara {
+    padding: 5px;
+    min-height: 135vh;
+    background-color: var(--primary_black);
+    margin-top: -2px;
+  }
+  .manyara__header__container {
+    height: 5vh;
+    padding: 80px 0px 0px 5px;
+  }
+  .manyara__header__container > h1 {
+    font-size: 33px;
+    padding-left: 10px;
+  }
+  .manyara__header__container .manyara__liner {
+    background-color: var(--white);
+    width: 100px;
+    height: 5px;
+  }
+  .manyara__txtImg__container {
+    display: flex;
+    padding-top: 30px;
+    flex-direction: column-reverse;
+  }
+  .manyara__txt__container {
+    display: flex;
+    width: 100%;
+    min-height: 80vh;
+  }
+  .manyara__txt__container > p {
+    font-size: 1.1rem;
+  }
+  .manyara__Img__container {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    height: 50vh;
+  }
+  .manyara__Img__container .manyara__Img {
+    width: 100%;
+    height: 45vh;
+  }
+}

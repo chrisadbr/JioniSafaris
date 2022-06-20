@@ -1,0 +1,21 @@
+:root {
+  --primary_black: #313233;
+  --jioni: #eb8c34;
+  --white: #ffffff;
+  --ghost_white: #f8f8ff;
+  --min_jioni: #bf9154;
+  --light_pink: #ffb6c1;
+  --hot_pink: #ff69b4;
+  --coral: #ff7f50;
+  --fuchsia: #ff00ff;
+  --dark_violet: #9400d3;
+  --indigo: #4b0082;
+  --saddle_brown: #8b4513;
+  --sienna: #a52a2a;
+  --brown: #a52a2a;
+  --chocolate: #d2691e;
+  --rosy_brown: #bc8f8f;
+  --tan: #d2b48c;
+  --dark_khaki: #bdb76b;
+  --light_green: #25d366;
+}

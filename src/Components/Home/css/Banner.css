@@ -1,0 +1,54 @@
+.banner {
+  display: flex;
+  min-height: 120vh;
+  width: 100%;
+}
+.banner__container {
+  width: 100%;
+  min-height: 110vh;
+  display: flex;
+  background: url(../../Asset/banner_bcg.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-left: -1px;
+  margin-top: -6px;
+}
+.moto__container {
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding-bottom: 185px;
+  padding-right: 9px;
+}
+.moto__container > h1 {
+  font-size: 4.2rem;
+  color: var(--primary_black);
+}
+.moto__container > h1 > .side__text {
+  color: var(--min_jioni);
+}
+.moto__container > .btn__holiday {
+  display: flex;
+  justify-content: center;
+  background-color: var(--min_jioni);
+  padding: 10px;
+  border-radius: 999px;
+  margin-top: 30px;
+  font-size: 1.3rem;
+  color: var(--primary_black);
+  font-weight: 600;
+  transition: 0.5s ease-in-out;
+  text-decoration: none;
+}
+.moto__container > .btn__holiday:hover {
+  cursor: pointer;
+  background-color: var(--primary_black);
+  color: var(--min_jioni);
+}
+@media screen and (max-width: 768px) {
+  .banner {
+    display: none;
+  }
+}
